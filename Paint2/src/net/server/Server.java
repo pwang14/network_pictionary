@@ -10,7 +10,6 @@ public class Server {
 	//word lists
 	private String[] bempList = {"Nick","Sam","Mingde","Kevin","Terry","Jason","Patrick","Roham","Justin","JJ","Stephen","Vimal","Sean","Syed"};
 	private String[] memeList = {"COMC","Bio Board","SHAD","IOP","stand aside","calm yourself","gachiGASM","ram ranch","NickBurgular","38C","To what extent","Byber bescurity","Encryption","loss","Peer2Peer","PROMEGALUL","pls gamble all","invade blue","hehexd","Playin DOTA 2","challenged ahri","It's okay to be thristy"};
-	private String[] beansList = {"Sayohn","William","Garnet","Patrick","Bertha","Ben","Willard","Jeffrey","Adam","Henry","Yixuan","Josephine","Yi Fei","Allie","Brianna"};
 	private String[] normalList = {"Apple","Computer","Coffee","Tree","Cheese","Pirate ship","Piano"};
 	private String[] wordList;
 	
@@ -76,9 +75,6 @@ public class Server {
 			}
 			else if (listSel.equals("memes")) {
 				wordList = memeList;
-			}
-			else if (listSel.equals("real")) {
-				wordList = beansList;
 			}
 			else if (listSel.equals("normal")) {
 				wordList = normalList;

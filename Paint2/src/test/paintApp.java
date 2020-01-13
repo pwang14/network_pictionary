@@ -21,8 +21,8 @@ public class paintApp extends JFrame implements ActionListener, MouseListener, M
 	
 	private String username = "gustav";
 	
-	private ArrayList<String> clientUserList = new ArrayList<String>(Arrays.asList(username,"ben","kevin","andrew","willard","william","alex","frank","sayohn","garnet"));
-	private ArrayList<Integer> clientScoreList = new ArrayList<Integer>(Arrays.asList(0,0,0,0,0,0,0,0,0,0));
+	private ArrayList<String> clientUserList = new ArrayList<String>(Arrays.asList(username));
+	private ArrayList<Integer> clientScoreList = new ArrayList<Integer>(Arrays.asList(0));
 	
 	public static void main(String[] args) {
 		paintApp application = new paintApp();
