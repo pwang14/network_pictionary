@@ -6,7 +6,7 @@ The drawing and network aspects of the program were developed seperately (Paint 
 
 ### Drawing application
 
-The drawing program was developed with the java.awt API (includes javax.swing). The graphics are due to inheritance from JFrame.
+The drawing program was developed with the javax.swing API (JFrame) and the java.awt.event API.
 When a user clicks and drags the mouse (MouseListener), a new line object is added to an ArrayList connecting the initial and final positions of the mouse.
 The program contains additional features (different brush sizes and colours, undo with crtl-z, clear canvas button).
 
