@@ -6,9 +6,11 @@ This program is a networked, multiplayer version of the game Pictionary.
 
 *It's the user's turn to draw*
 
+
 ![Guessing turn](/images/pictionary2.gif)
 
 *It's the user's turn to guess*
+
 
 The drawing and network aspects of the program were developed seperately (Paint and Network Test), and then merged together (Paint2).
 
